@@ -1,0 +1,7 @@
+C:\Users\Kate\source\repos\Practice2Linq\Practice2Linq\obj\Debug\Practice2Linq.csprojAssemblyReference.cache
+C:\Users\Kate\source\repos\Practice2Linq\Practice2Linq\obj\Debug\Practice2Linq.csproj.CoreCompileInputs.cache
+C:\Users\Kate\source\repos\Practice2Linq\Practice2Linq\bin\Debug\Practice2Linq.exe.config
+C:\Users\Kate\source\repos\Practice2Linq\Practice2Linq\bin\Debug\Practice2Linq.exe
+C:\Users\Kate\source\repos\Practice2Linq\Practice2Linq\bin\Debug\Practice2Linq.pdb
+C:\Users\Kate\source\repos\Practice2Linq\Practice2Linq\obj\Debug\Practice2Linq.exe
+C:\Users\Kate\source\repos\Practice2Linq\Practice2Linq\obj\Debug\Practice2Linq.pdb
