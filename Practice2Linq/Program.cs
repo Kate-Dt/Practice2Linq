@@ -7,16 +7,18 @@ namespace Practice2Linq
     {
         static void Main(string[] args)
         {
-            Book one = new Book("War and Peace I", "Lev Tolstoy", 2015, 308);
-            Book two = new Book("1984", "George Orwell", 2010, 331);
-            Book three = new Book("Dune", "Frank Herbert", 2016, 450);
-            Book four = new Book("The Hobbit", "John Tolkien", 2008, 331);
-            Book five = new Book("The Silmarillion", "John Tolkien", 2015, 357);
-            Book six = new Book("The Hobbit and The Lord of the Rings", "John Tolkien", 2014, 1504);
+            //Book one = new Book("War and Peace I", "Lev Tolstoy", 2015, 308);
+            //Book two = new Book("1984", "George Orwell", 2010, 331);
+            //Book three = new Book("Dune", "Frank Herbert", 2016, 450);
+            //Book four = new Book("The Hobbit", "John Tolkien", 2008, 331);
+            //Book five = new Book("The Silmarillion", "John Tolkien", 2015, 357);
+            //Book six = new Book("The Hobbit and The Lord of the Rings", "John Tolkien", 2014, 1504);
 
-            List <Book> bookList = new List<Book>{ one, two, three, four, five, six };
+            //List <Book> bookList = new List<Book>{ one, two, three, four, five, six };
 
-            BookDB db = new BookDB(bookList);
+            //BookDB db = new BookDB(bookList);
+            BookDB db = new BookDB();
+            db.Deserialize();
 
             Console.WriteLine("Get all books by Tolkien");
             List<string> names = db.GetAuthorBooks("Tolkien");

@@ -2,6 +2,7 @@
 
 namespace Practice2Linq
 {
+    [Serializable()]
     class Book
     {
         private string name;
